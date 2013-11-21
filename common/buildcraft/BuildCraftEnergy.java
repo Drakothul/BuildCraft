@@ -210,7 +210,7 @@ public class BuildCraftEnergy {
 		RefineryRecipes.addRecipe(new FluidStack(fluidOil, 1), new FluidStack(fluidFuel, 1), 12, 1);
 
 		// Iron Engine Fuels
-//		IronEngineFuel.addFuel("lava", 1, 20000);
+		IronEngineFuel.addFuel("lava", 1, 20000);
 		IronEngineFuel.addFuel("oil", 3, (int) (5000 * fuelOilMultiplier));
 		IronEngineFuel.addFuel("fuel", 6, (int) (25000 * fuelFuelMultiplier));
 
